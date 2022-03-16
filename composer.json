@@ -1,0 +1,19 @@
+{
+    "name": "matthewsford/donor-direct-client",
+    "description": "a client library for accessing Donor Direct",
+    "type": "library",
+    "require": {
+        "guzzlehttp/guzzle": "^7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Matthewsford\\DonorDirectClient\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Matthew Ford",
+            "email": "matthew@matthewford.us"
+        }
+    ]
+}
